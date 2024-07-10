@@ -17,7 +17,7 @@ return (
       </Toolbar>
     </AppBar>
     <Image
-      src={"/stock-image.png"}
+      src={process.env.NEXT_PUBLIC_FILE_LOCATION + "stock-image.png"}
       width={500}
       height={400}
       alt="Stock image"
